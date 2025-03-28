@@ -55,10 +55,10 @@ Navigation between Login, User List, and Edit User pages.
 
 ---
 
-  ## Install dependencies 
+  Install dependencies : 
  npm install , 
  npm install bootstrap react-router-dom axios
   
-** TO run ** 
+ TO Run  : 
   npm run dev
 
