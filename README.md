@@ -14,7 +14,7 @@ If you are developing a production application, we recommend using TypeScript an
 
  🚀
 
-  <!-- Overview -->
+  ## Overview
 
 This is a React-based Employee Management System for basic user management operations including:
 
@@ -27,40 +27,38 @@ This is a React-based Employee Management System for basic user management opera
 
 ---
 
-<!--  Features  -->
+ ## Features 
 
-  <!-- Login Authentication   -->
+  ## Login Authentication  
 User can log in using:
 - Email : eve.holt@reqres.in
 - Password : cityslicka
 
- <!-- Token Storage  -->
+ ## Token Storage 
 Token is stored in **Local Storage** after successful login and used to protect routes.
 
- <!-- User List   -->
+ ## User List  
 Displays a list of users fetched from ReqRes API with pagination.
-<!-- Edit User -->
+## Edit User
 User details (First Name, Last Name, Email) can be edited.  
 Note: Since ReqRes is a mock API, the changes are updated only on the UI, not on the server.
 
-  <!-- Delete User  -->
+  ## Delete User 
 Users can be removed from the list locally.
 
- <!-- Error Handling & Form Validation   -->
-All API errors are handled gracefully with appropriate messages.
 
- <!-- Bootstrap Styling  -->
+ ## Bootstrap Styling 
 The entire application is styled using Bootstrap  for better UI.
 
-  <!-- React Router Integration   -->
+  ## React Router Integration  
 Navigation between Login, User List, and Edit User pages.
 
 ---
 
-<!-- Install dependencies  -->
+  ## Install dependencies 
  npm install , 
  npm install bootstrap react-router-dom axios
   
-  <!-- TO run  -->
+   ## TO run 
   npm run dev
 
